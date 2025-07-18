@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>マルチメディア考房プロジェクト</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- メインヘッダー -->
+    <header class="main-header">
+        <div class="container header-container">
+            <div class="logo">
+                <a href="index.html">マルチメディア考房プロジェクト</a>
+            </div>
+            <nav>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="#news" class="nav-link">ニュース</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">マルチメディア考房プロジェクトについて</a></li>
+                    <li class="nav-item dropdown">
+                        <input type="checkbox" id="team-dropdown" class="dropdown-toggle">
+                        <label for="team-dropdown" class="nav-link">班紹介</label>
+                        <ul class="dropdown-menu">
+                            <li><a href="../teams/illustration.html">イラスト班</a></li>
+                            <li><a href="../teams/cg.html">3DCG班</a></li>
+                            <li><a href="../teams/game.html">ゲーム班</a></li>
+                            <li><a href="../teams/video.html">映像班</a></li>
+                            <li><a href="../teams/music.html">音楽班</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">見学のご案内</a></li>
+                </ul>
+            </nav>
+            <label for="menu-toggle" class="hamburger">
+                <i class="fas fa-bars"></i>
+            </label>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        </div>
+    </header>
+
+    <!-- トップセクション -->
+    <section class="top">
+        <div class="top-particles">
+            <div class="particle" style="width: 5px; height: 5px; top: 20%; left: 10%; animation-duration: 15s; animation-delay: 0s;"></div>
+            <div class="particle" style="width: 8px; height: 8px; top: 40%; left: 20%; animation-duration: 20s; animation-delay: 2s;"></div>
+            <div class="particle" style="width: 6px; height: 6px; top: 60%; left: 70%; animation-duration: 18s; animation-delay: 1s;"></div>
+            <div class="particle" style="width: 10px; height: 10px; top: 30%; left: 80%; animation-duration: 25s; animation-delay: 0.5s;"></div>
+            <div class="particle" style="width: 7px; height: 7px; top: 70%; left: 40%; animation-duration: 22s; animation-delay: 1.5s;"></div>
+        </div>
+        <div class="top-overlay"></div>
+        <div class="top-content">
+            <h1 class="top-title">マルチメディア考房プロジェクト</h1>
+            <p class="top-subtitle">創造力を形にする、デジタルクリエイションの世界へ</p>
+        </div>
+    </section>
+
+    <!--ニュースセクション-->
+    <section id="news" class="section" style="background: var(--bg-blue-radial);">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">ニュース</h2>
+            </div>
+            <div class="news-container">
+                <div class="news-list">
+                    <div class="news-item">
+                        <span class="news-date">2025/05/08</span>
+                        <span class="news-title">マルチメディア考房プロジェクトのホームページを公開しました。</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- イントロセクション -->
+    <section id="about" class="section" style="background: var(--bg-blue-radial);">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">マルチメディア考房プロジェクトについて</h2>
+                <p class="section-subtitle">マルチメディア考房プロジェクト（マルプロ）は、</p>
+                <p class="section-subtitle">コンピューターを用いた３DCG・イラスト・映像・音楽・ゲームの制作を通して、</p>
+                <p class="section-subtitle">自己のスキルアップを目指すプロジェクト</p>
+            </div>
+            
+            <div class="menu-panel">
+                <div class="menu-header">
+                    <h3 class="menu-title">プロジェクト概要</h3>
+                </div>
+                <div class="menu-body">
+                    <div class="menu-main">
+                        <h3 class="menu-title-sm">活動日</h3>
+                        <div class="menu-content">
+                            <p>毎週水曜日 １７：００～１９：００</p>
+                        </div>
+                        <h3 class ="menu-title-sm">活動場所</h3>
+                        <div class="menu-content">
+                            <p>ライブラリーセンター ３階 ３１１ー３室</p>
+                        </div>
+                        <h3 class="menu-title-sm">活動内容</h3>
+                        <div class="menu-content">
+                            <p>毎週水曜日のミーティングで制作経過を発表し、現役アニメーターや他のメンバーからアドバイスを受け、作品をブラッシュアップさせていきます</p>
+                        </div>
+                        <h3 class="menu-title-sm">3つの特徴</h3>
+                        <div class="menu-list">
+                            <div class="menu-item">現役アニメーターの先生から専門的なアドバイスが受けられる</div>
+                            <div class="menu-item">他の班の活動も見ることができるので創作活動の幅が広がり刺激になる</div>
+                            <div class="menu-item">同じ班の先輩が丁寧に指導してくれるので初心者でも安心して挑戦できる</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 活動班紹介 -->
+    <section id="team" class="section character-section">
+        <div class="character-bg"></div>
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">班紹介</h2>
+                <p class="section-subtitle">各分野に特化した班で専門的な活動ができます</p>
+                <div style="text-align: center; margin-top: 4rem;">
+                    <a href="../gallery/index.html" class="btn">ギャラリー<i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            
+            <div class="character-grid">
+                <a href="../teams/illustration.html" class="character-card illustration-card">
+                    <div class="character-image">
+                        <img src="images/Blue SF_福原愛梨.PNG" alt="イラスト班の作品例">
+                    </div>
+                    <div class="character-info">
+                        <h3 class="character-name">イラスト班</h3>
+                        <div class="character-title">ペイントソフトを用いた制作</div>
+                        <p class="character-desc">ペイントソフトを用いたイラスト・アニメーション制作。物の動作表現の難しさを乗り越え、アニメーション完成時の喜びを味わおう。</p>
+                    </div>
+                </a>
+                
+                <a href="../teams/cg.html" class="character-card cg-card">
+                    <div class="character-image">
+                        <img src="images/DodgeCharger_山田爽太.png" alt="3DCG班の作品例">
+                    </div>
+                    <div class="character-info">
+                        <h3 class="character-name">3DCG班</h3>
+                        <div class="character-title">３D制作ソフトを用いた制作</div>
+                        <p class="character-desc">３D制作ソフトを用いた３Dモデルの制作。複雑なモデリングや質感設定に挑戦し、リアルな作品完成の達成感を体験しよう。</p>
+                    </div>
+                </a>
+
+                <a href="../teams/game.html" class="character-card game-card">
+                    <div class="character-image">
+                        <video src="images/ゲーム班.mp4" alt="ゲーム班の作品例" autoplay muted loop playsinline>
+                            お使いのブラウザは動画の再生に対応していません。
+                        </video>
+                    </div>
+                    <div class="character-info">
+                        <h3 class="character-name">ゲーム班</h3>
+                        <div class="character-title">ゲームエンジンを用いた制作</div>
+                        <p class="character-desc">ゲームエンジンを用いた2D･3Dゲームの制作。プログラミングやバグ修正の技術を身につけ、自作ゲームをプレイしてもらう喜びを感じよう。</p>
+                    </div>
+                </a>
+                
+                <a href="../teams/video.html" class="character-card video-card">
+                    <div class="character-image">
+                        <video src="images/映像班.mp4" alt="映像班の作品例" autoplay muted loop playsinline>
+                            お使いのブラウザは動画の再生に対応していません。
+                        </video>
+                    </div>
+                    <div class="character-info">
+                        <h3 class="character-name">映像班</h3>
+                        <div class="character-title">動画編集ソフトを用いた制作</div>
+                        <p class="character-desc">動画編集ソフトを用いた実写映像・モーショングラフィックスの制作。映像編集の技術を磨き、作品完成時の達成感を味わおう。</p>
+                    </div>
+                </a>
+                
+                <a href="../teams/music.html" class="character-card music-card">
+                    <div class="character-image">
+                        <img src="images/music2.png" alt="音楽班の作品例">
+                    </div>
+                    <div class="character-info">
+                        <h3 class="character-name">音楽班</h3>
+                        <div class="character-title">DAWを用いた制作</div>
+                        <p class="character-desc">DAWを用いた楽曲の制作。音楽制作の技術を身につけ、イメージを曲に反映させる楽しさを体験しよう。</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- 見学のご案内 -->
+    <section id="contact" class="section" style="background: var(--bg-blue-radial);">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">見学のご案内</h2>
+                <p class="section-subtitle">興味のある方はぜひ活動の様子を見学にお越しください</p>
+            </div>
+            
+            <div class="menu-panel">
+                <div class="menu-header">
+                    <h3 class="menu-title">見学情報</h3>
+                </div>
+                <div class="menu-body" style="display: flex; flex-wrap: wrap; gap: 3rem;">
+                    <div style="flex: 1; min-width: 300px;">
+                        <h3 class="menu-title-sm">参加方法</h3>
+                        <div class="menu-content">
+                            <p>ミーティングの様子を見学可能です。毎週水曜日１７：００からライブラリーセンター３階 ３１１ー３室で活動しているので、お気軽にお越しください。</p>
+                            <p>初心者の方も大歓迎です！各班の先輩が丁寧に指導しますので、安心してご参加いただけます。</p>
+                        </div>
+                    </div>
+                    <div style="flex: 1; min-width: 300px;">
+                        <img src="images/全体.png" alt="活動の様子" style="width: 100%; border-radius: 2px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- フッター -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3 class="footer-col-title">マルチメディア考房プロジェクト</h3>
+                    <p class="footer-text">毎週水曜日 １７：００〜１９：００</p>
+                    <p class="footer-text">ライブラリーセンター ３階 ３１１ー３室</p>
+                </div>
+                <div class="footer-col">
+                    <h3 class="footer-col-title">お問い合わせ</h3>
+                    <p class="footer-text">メールアドレス：marupro@mlist.kanazawa-it.ac.jp</p>
+                    <p class="footer-text">ご質問等ございましたら、お問い合わせください。</p>
+                </div>
+            </div>
+            <div class="copyright">
+                &copy; 2025 マルチメディア考房プロジェクト
+            </div>
+        </div>
+    </footer>
+
+    <a href="#" class="back-to-top visible">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</body>
+</html>
